@@ -33,8 +33,6 @@ if($test1 <= $test2){
     echo "test2 is kleiner of gelijk aan test2";
     echo "<br>";
 }
-
 ?>
-
 </body>
 </html> 
