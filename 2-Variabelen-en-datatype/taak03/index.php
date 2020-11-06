@@ -3,9 +3,9 @@
 <body>
 
 <?php
-$leeftijd = 55;
+$leeftijd = 16 . "<br>";
 echo $leeftijd;
-$melkprijs = 0.98;
+$melkprijs = "1,11";
 echo $melkprijs;
 ?>
 
