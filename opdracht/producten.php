@@ -21,57 +21,57 @@
                 <th>prijs per stuk</th>
             </tr>
             <tr>
-                <td>0</td>
+                <td>1</td>
                 <td>appels</td>
                 <td>0,25</td>
             </tr>
             <tr>
-                <td>1</td>
+                <td>2</td>
                 <td>peren</td>
                 <td>0,30</td>
             </tr>
             <tr>
-                <td>2</td>
+                <td>3</td>
                 <td>limoen</td>
                 <td>0,90</td>
             </tr>
             <tr>
-                <td>3</td>
+                <td>4</td>
                 <td>olijf</td>
                 <td>0,80</td>
             </tr>
             <tr>
-                <td>4</td>
+                <td>5</td>
                 <td>perzik</td>
                 <td>0,40</td>
             </tr>
             <tr>
-                <td>5</td>
+                <td>6</td>
                 <td>pruim</td>
                 <td>0,39</td>
             </tr>
             <tr>
-                <td>6</td>
+                <td>7</td>
                 <td>rode bes</td>
                 <td>1,05</td>
             </tr>
             <tr>
-                <td>7</td>
+                <td>8</td>
                 <td>tomaat</td>
                 <td>1,20</td>
             </tr>
             <tr>
-                <td>8</td>
+                <td>9</td>
                 <td>kiwi</td>
                 <td>0,47</td>
             </tr>
             <tr>
-                <td>9</td>
+                <td>10</td>
                 <td>druif</td>
                 <td>1,10</td>
             </tr>
             <tr>
-                <td>10</td>
+                <td>11</td>
                 <td>citroen</td>
                 <td>1,15</td>
             </tr>

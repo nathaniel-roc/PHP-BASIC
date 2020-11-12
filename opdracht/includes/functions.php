@@ -1,11 +1,62 @@
 <?php
 
+
 function getInput()
 {
     $input = $_GET['input'] ?? 'vul een waarde in hierboven en klik op [check]';
     echo $input;
 }
 
+function output()
+{
+    $id1 = array("id=" . 1 . " ", "naam= appels ", "prijs= €" . 0.25);
+    $id2 = array("id=" . 2 . " ", "naam= peren ", "prijs= €" . 0.30);
+    $id3 = array("id=" . 3 . " ", "naam= limoen ", "prijs= €" . 0.90);
+    $id4 = array("id=" . 4 . " ", "naam= olijf ", "prijs= €" . 0.80);
+    $id5 = array("id=" . 5 . " ", "naam= perzik ", "prijs= €" . 0.40);
+    $id6 = array("id=" . 6 . " ", "naam= pruim ", "prijs= €" . 0.39);
+    $id7 = array("id=" . 7 . " ", "naam= rode bes ", "prijs= €" . 1.05);
+    $id8 = array("id=" . 8 . " ", "naam= tomaat ", "prijs= €" . 1.20);
+    $id9 = array("id=" . 9 . " ", "naam= kiwi ", "prijs= €" . 0.47);
+    $id10 = array("id=" . 10 . " ", "naam= druif ", "prijs= €" . 1.10);
+    $id11 = array("id=" . 11 . " ", "naam= citroen ", "prijs= €" . 1.15);
+    $input = $_GET['input'] ?? 'vul een waarde in hierboven en klik op [check]';
+    switch($input) {
+        case 1 || "appels" || 0.25:
+        var_dump ($id1);
+        break;
+        case 2 || "peren" || 0.30:
+        var_dump ($id2);
+        break;
+        case 3 || "limoen" || 0.90:
+        var_dump ($id3);
+        break;
+        case 4 || "olijf" || 0.90:
+        var_dump($id4);
+        break;
+        case 5 || "perzik" || 0.40:
+        var_dump ($id5);
+        break;
+        case 6 || "pruim" || 0.39:
+        var_dump ($id6);
+        break;
+        case 7 || "rode bes" || 1.05:
+        var_dump ($id7);
+        break;
+        case 8 || "tomaat" || 1.20:
+        var_dump($id8);
+        break;
+        case 9 || "kiwi" || 0.47:
+        var_dump ($id9);
+        break;
+        case 10 || "druif" || 1.10:
+        var_dump ($id10);
+        break;
+        case 11 || "citroen" || 1.15:
+        var_dump($id11);
+        break;
+    }
+}
 
 function getProductNr()
 {
@@ -30,37 +81,37 @@ function getPrice()
     $productnummer = $_GET['productnummer'] ?? 'vul een productnummer in!';
     $aantalProd = $_GET['aantal'] ?? 'vul een aantal in!';
     $leeftijd = $_GET['leeftijd'] ?? 'vul een leeftijd in!';
-    if ($productnummer == 0){
+    if ($productnummer == 1){
         $productprijs = 0.25;
     }
-    if ($productnummer == 1){
+    if ($productnummer == 2){
         $productprijs = 0.30;
     }
-    if ($productnummer == 2){
+    if ($productnummer == 3){
         $productprijs = 0.90;
     }
-    if ($productnummer == 3){
+    if ($productnummer == 4){
         $productprijs = 0.80;
     }
-    if ($productnummer == 4){
+    if ($productnummer == 5){
         $productprijs = 0.40;
     }
-    if ($productnummer == 5){
+    if ($productnummer == 6){
         $productprijs = 0.39;
     }
-    if ($productnummer == 6){
+    if ($productnummer == 7){
         $productprijs = 1.05;
     }
-    if ($productnummer == 7){
+    if ($productnummer == 8){
         $productprijs = 1.20;
     }
-    if ($productnummer == 8){
+    if ($productnummer == 9){
         $productprijs = 0.47;
     }
-    if ($productnummer == 9){
+    if ($productnummer == 10){
         $productprijs = 1.10;
     }
-    if ($productnummer == 10){
+    if ($productnummer == 11){
         $productprijs = 1.15;
     }
     $totalPrice = $aantalProd * $productprijs;
@@ -96,37 +147,37 @@ function totalPrice()
     $aantalProd = $_GET['aantal'] ?? 'vul een aantal in!';
     $leeftijd = $_GET['leeftijd'] ?? 'vul een leeftijd in!';
 
-    if ($productnummer == 0){
+    if ($productnummer == 1){
         $productprijs = 0.25;
     }
-    if ($productnummer == 1){
+    if ($productnummer == 2){
         $productprijs = 0.30;
     }
-    if ($productnummer == 2){
+    if ($productnummer == 3){
         $productprijs = 0.90;
     }
-    if ($productnummer == 3){
+    if ($productnummer == 4){
         $productprijs = 0.80;
     }
-    if ($productnummer == 4){
+    if ($productnummer == 5){
         $productprijs = 0.40;
     }
-    if ($productnummer == 5){
+    if ($productnummer == 6){
         $productprijs = 0.39;
     }
-    if ($productnummer == 6){
+    if ($productnummer == 7){
         $productprijs = 1.05;
     }
-    if ($productnummer == 7){
+    if ($productnummer == 8){
         $productprijs = 1.20;
     }
-    if ($productnummer == 8){
+    if ($productnummer == 9){
         $productprijs = 0.47;
     }
-    if ($productnummer == 9){
+    if ($productnummer == 10){
         $productprijs = 1.10;
     }
-    if ($productnummer == 10){
+    if ($productnummer == 11){
         $productprijs = 1.15;
     }
     //korting//
