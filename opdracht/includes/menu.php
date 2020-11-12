@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/menu.css">
 
 <div class="topnav">
   <a class="" href="index.php">Home</a>
