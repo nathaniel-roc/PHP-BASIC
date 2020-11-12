@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Home</title>
-    <?php include 'includes/functions.php';?>
+    <?php require 'includes/functions.php';?>
   </head>
   <body>
     <div class="menu">
@@ -20,7 +20,30 @@
     <p>Het datatype van de waarde: <?php getInput(); ?> is <?php output(); ?></p>
 
     </form><!-- dit laten staan! -->
-
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <?php include 'includes/footer.php';?>
   </body>
 </html>
