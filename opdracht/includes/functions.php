@@ -20,41 +20,45 @@ function output()
     $id9 = array("id=" . 9 . " ", "naam= kiwi ", "prijs= €" . 0.47);
     $id10 = array("id=" . 10 . " ", "naam= druif ", "prijs= €" . 1.10);
     $id11 = array("id=" . 11 . " ", "naam= citroen ", "prijs= €" . 1.15);
-    $input = $_GET['input'] ?? 'vul een waarde in hierboven en klik op [check]';
-    switch($input) {
-        case 1 || "appels" || 0.25:
-        var_dump ($id1);
-        break;
-        case 2 || "peren" || 0.30:
-        var_dump ($id2);
-        break;
-        case 3 || "limoen" || 0.90:
-        var_dump ($id3);
-        break;
-        case 4 || "olijf" || 0.90:
-        var_dump($id4);
-        break;
-        case 5 || "perzik" || 0.40:
-        var_dump ($id5);
-        break;
-        case 6 || "pruim" || 0.39:
-        var_dump ($id6);
-        break;
-        case 7 || "rode bes" || 1.05:
-        var_dump ($id7);
-        break;
-        case 8 || "tomaat" || 1.20:
-        var_dump($id8);
-        break;
-        case 9 || "kiwi" || 0.47:
-        var_dump ($id9);
-        break;
-        case 10 || "druif" || 1.10:
-        var_dump ($id10);
-        break;
-        case 11 || "citroen" || 1.15:
-        var_dump($id11);
-        break;
+
+        $input = $_GET['input'] ?? 'vul een waarde in hierboven en klik op [check]';
+        switch(true) {
+            case ($input == 1 || $input == "appels" || $input == 0.25):
+            var_dump ($id1);
+            break;
+            case ($input == 2 || $input == "peren" || $input == 0.30):
+            var_dump ($id2);
+            break;
+            case ($input == 3 || $input == "limoen" || $input == 0.90):
+            var_dump ($id3);
+            break;
+            case ($input == 4 || $input == "olijf" || $input == 0.80):
+            var_dump($id4);
+            break;
+            case ($input == 5 || $input == "perzik" || $input == 0.40):
+            var_dump ($id5);
+            break;
+            case ($input == 6 || $input == "pruim" || $input == 0.39):
+            var_dump ($id6);
+            break;
+            case ($input == 7 || $input == "rode bes" || $input == 1.05):
+            var_dump ($id7);
+            break;
+            case ($input == 8 || $input == "tomaat" || $input == 1.20):
+            var_dump($id8);
+            break;
+            case ($input == 9 || $input == "kiwi" || $input == 0.47):
+            var_dump ($id9);
+            break;
+            case ($input == 10 || $input == "druif" || $input == 1.10):
+            var_dump ($id10);
+            break;
+            case ($input == 11 || $input == "citroen" || $input == 1.15):
+            var_dump($id11);
+            default:
+            echo "niet gevonden";
+            break;
+        
     }
 }
 
