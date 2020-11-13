@@ -11,28 +11,28 @@ function getInput()
 //index
 function output()
 {
-    $prijzen = array("id=" . 1 . "price= €" .  0.25,
-        "id=" . 2 . "price= €" . 0.30,
-        "id=" . 3 . "price= €" . 0.90,
-        "id=" . 4 .  "price= €" . 0.80,
-        "id=" . 5 . "price= €" . 0.40,
-        "id=" . 6 . "price= €" . 0.39,
-        "id=" . 7 . "prijs= €" . 1.05,
-        "id=" . 8 . "price= €" . 1.20,
-        "id=" . 9 . "price= €" . 0.47,
-        "id=" . 10 . "price= €" . 1.10,
-        "id=" . 11 . "price= €" . 1.15);
-    $namen = array("id=" . 1 . "naam= appels ",
-        "id=" . 2 . "naam= peren ",
-        "id=" . 3 . "naam= limoen ",
-        "id=" . 4 .  "naam= olijf ",
-        "id=" . 5 . "naam= perzik ",
-        "id=" . 6 . "naam= pruim ",
-        "id=" . 7 . "naam= rode bes ",
-        "id=" . 8 . "naam= tomaat ",
-        "id=" . 9 . "naam= kiwi ",
-        "id=" . 10 . "naam= druif ",
-        "id=" . 11 . "naam= citroen ");
+    $prijzen = array(0.25,
+        0.30,
+        0.90,
+        0.80,
+        0.40,
+        0.39,
+        1.05,
+        1.20,
+        0.47,
+        1.10,
+        1.15);
+    $namen = array("appels",
+        "peren",
+        "limoen",
+        "olijf",
+        "perzik",
+        "pruim",
+        "rode bes",
+        "tomaat",
+        "kiwi",
+        "druif",
+        "citroen");
 
         $input = $_GET['input'] ?? ' ';
         switch(true) {
