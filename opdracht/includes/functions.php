@@ -7,6 +7,8 @@ function getInput()
     echo $input;
 }
 
+
+//index
 function output()
 {
     $id1 = array("id=" . 1 . " ", "naam= appels ", "prijs= €" . 0.25);
@@ -22,17 +24,27 @@ function output()
     $id11 = array("id=" . 11 . " ", "naam= citroen ", "prijs= €" . 1.15);
 
     $prijzen = array("id=" . 1 . "price= €" .  0.25,
-     "id=" . 2 . "price= €" . 0.30,
-      "id=" . 3 . "price= €" . 0.90,
-       "id=" . 4 .  "price= €" . 0.80,
+        "id=" . 2 . "price= €" . 0.30,
+        "id=" . 3 . "price= €" . 0.90,
+        "id=" . 4 .  "price= €" . 0.80,
         "id=" . 5 . "price= €" . 0.40,
-         "id=" . 6 . "price= €" . 0.39,
-          "id=" . 7 . "prijs= €" . 1.05,
-           "id=" . 8 . "price= €" . 1.20,
-            "id=" . 9 . "price= €" . 0.47,
-             "id=" . 10 . "price= €" . 1.10,
-              "id=" . 11 . "price= €" . 1.15);
-    $namen = array("id=" . 1 . "naam= appels ", "id=" . 2 . "naam= peren ", "id=" . 3 . "naam= limoen ", "id=" . 4 .  "naam= olijf ", "id=" . 5 . "naam= perzik ", "id=" . 6 . "naam= pruim ", "id=" . 7 . "naam= rode bes ", "id=" . 8 . "naam= tomaat ", "id=" . 9 . "naam= kiwi ", "id=" . 10 . "naam= druif ", "id=" . 11 . "naam= citroen ");
+        "id=" . 6 . "price= €" . 0.39,
+        "id=" . 7 . "prijs= €" . 1.05,
+        "id=" . 8 . "price= €" . 1.20,
+        "id=" . 9 . "price= €" . 0.47,
+        "id=" . 10 . "price= €" . 1.10,
+        "id=" . 11 . "price= €" . 1.15);
+    $namen = array("id=" . 1 . "naam= appels ",
+        "id=" . 2 . "naam= peren ",
+        "id=" . 3 . "naam= limoen ",
+        "id=" . 4 .  "naam= olijf ",
+        "id=" . 5 . "naam= perzik ",
+        "id=" . 6 . "naam= pruim ",
+        "id=" . 7 . "naam= rode bes ",
+        "id=" . 8 . "naam= tomaat ",
+        "id=" . 9 . "naam= kiwi ",
+        "id=" . 10 . "naam= druif ",
+        "id=" . 11 . "naam= citroen ");
 
         $input = $_GET['input'] ?? ' ';
         switch(true) {
