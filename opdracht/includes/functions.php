@@ -37,37 +37,37 @@ function output()
         $input = $_GET['input'] ?? ' ';
         switch(true) {
             case ($input == 1 || $input == "appels" || $input == 0.25):
-            var_dump ($prijzen[0] . $namen[0]);
+            var_dump ($prijzen[0] . " " . $namen[0]);
             break;
             case ($input == 2 || $input == "peren" || $input == 0.30):
-            var_dump ($prijzen[1] . $namen[1]);
+            var_dump ($prijzen[1] . " " . $namen[1]);
             break;
             case ($input == 3 || $input == "limoen" || $input == 0.90):
-            var_dump ($prijzen[2] . $namen[2]);
+            var_dump ($prijzen[2] . " " . $namen[2]);
             break;
             case ($input == 4 || $input == "olijf" || $input == 0.80):
-            var_dump($prijzen[3] . $namen[3]);
+            var_dump($prijzen[3] . " " . $namen[3]);
             break;
             case ($input == 5 || $input == "perzik" || $input == 0.40):
-            var_dump ($prijzen[4] . $namen[4]);
+            var_dump ($prijzen[4] . " " . $namen[4]);
             break;
             case ($input == 6 || $input == "pruim" || $input == 0.39):
-            var_dump ($prijzen[5] . $namen[5]);
+            var_dump ($prijzen[5] . " " . $namen[5]);
             break;
             case ($input == 7 || $input == "rode bes" || $input == 1.05):
-            var_dump ($prijzen[6] . $namen[6]);
+            var_dump ($prijzen[6] . " " . $namen[6]);
             break;
             case ($input == 8 || $input == "tomaat" || $input == 1.20):
-            var_dump($prijzen[7] . $namen[7]);
+            var_dump($prijzen[7] . " " . $namen[7]);
             break;
             case ($input == 9 || $input == "kiwi" || $input == 0.47):
-            var_dump ($prijzen[8] . $namen[8]);
+            var_dump ($prijzen[8] . " " . $namen[8]);
             break;
             case ($input == 10 || $input == "druif" || $input == 1.10):
-            var_dump ($prijzen[9] . $namen[9]);
+            var_dump ($prijzen[9] . " " . $namen[9]);
             break;
             case ($input == 11 || $input == "citroen" || $input == 1.15):
-            var_dump($prijzen[10] . $namen[10]);
+            var_dump($prijzen[10] . " " . $namen[10]);
         
     }
 }
