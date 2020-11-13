@@ -11,18 +11,6 @@ function getInput()
 //index
 function output()
 {
-    $id1 = array("id=" . 1 . " ", "naam= appels ", "prijs= €" . 0.25);
-    $id2 = array("id=" . 2 . " ", "naam= peren ", "prijs= €" . 0.30);
-    $id3 = array("id=" . 3 . " ", "naam= limoen ", "prijs= €" . 0.90);
-    $id4 = array("id=" . 4 . " ", "naam= olijf ", "prijs= €" . 0.80);
-    $id5 = array("id=" . 5 . " ", "naam= perzik ", "prijs= €" . 0.40);
-    $id6 = array("id=" . 6 . " ", "naam= pruim ", "prijs= €" . 0.39);
-    $id7 = array("id=" . 7 . " ", "naam= rode bes ", "prijs= €" . 1.05);
-    $id8 = array("id=" . 8 . " ", "naam= tomaat ", "prijs= €" . 1.20);
-    $id9 = array("id=" . 9 . " ", "naam= kiwi ", "prijs= €" . 0.47);
-    $id10 = array("id=" . 10 . " ", "naam= druif ", "prijs= €" . 1.10);
-    $id11 = array("id=" . 11 . " ", "naam= citroen ", "prijs= €" . 1.15);
-
     $prijzen = array("id=" . 1 . "price= €" .  0.25,
         "id=" . 2 . "price= €" . 0.30,
         "id=" . 3 . "price= €" . 0.90,
